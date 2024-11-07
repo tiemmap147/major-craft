@@ -120,16 +120,6 @@ class Lang {
     );
   }
 
-  /// `View All`
-  String get viewAll {
-    return Intl.message(
-      'View All',
-      name: 'viewAll',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Total`
   String get total {
     return Intl.message(
@@ -225,6 +215,26 @@ class Lang {
     return Intl.message(
       'Blog',
       name: 'blog',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter`
+  String get enter {
+    return Intl.message(
+      'Enter',
+      name: 'enter',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `View All`
+  String get viewAll {
+    return Intl.message(
+      'View All',
+      name: 'viewAll',
       desc: '',
       args: [],
     );
@@ -580,30 +590,30 @@ class Lang {
     );
   }
 
-  /// `Full name (First and Last name)`
+  /// `Full name (First and Last name)*`
   String get fullName {
     return Intl.message(
-      'Full name (First and Last name)',
+      'Full name (First and Last name)*',
       name: 'fullName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Phone number`
+  /// `Phone number*`
   String get phoneNumber {
     return Intl.message(
-      'Phone number',
+      'Phone number*',
       name: 'phoneNumber',
       desc: '',
       args: [],
     );
   }
 
-  /// `Street address or P.O Box`
+  /// `Street address or P.O Box*`
   String get streetOrPOBox {
     return Intl.message(
-      'Street address or P.O Box',
+      'Street address or P.O Box*',
       name: 'streetOrPOBox',
       desc: '',
       args: [],
@@ -620,30 +630,30 @@ class Lang {
     );
   }
 
-  /// `Country`
+  /// `Country*`
   String get country {
     return Intl.message(
-      'Country',
+      'Country*',
       name: 'country',
       desc: '',
       args: [],
     );
   }
 
-  /// `State/Province/Region`
+  /// `State/Province/Region*`
   String get stateProvinceRegion {
     return Intl.message(
-      'State/Province/Region',
+      'State/Province/Region*',
       name: 'stateProvinceRegion',
       desc: '',
       args: [],
     );
   }
 
-  /// `Zip code`
+  /// `Zip code*`
   String get zipCode {
     return Intl.message(
-      'Zip code',
+      'Zip code*',
       name: 'zipCode',
       desc: '',
       args: [],
@@ -730,40 +740,40 @@ class Lang {
     );
   }
 
-  /// `Card number`
+  /// `Card number*`
   String get cardNumber {
     return Intl.message(
-      'Card number',
+      'Card number*',
       name: 'cardNumber',
       desc: '',
       args: [],
     );
   }
 
-  /// `Name on card`
+  /// `Name on card*`
   String get nameOnCard {
     return Intl.message(
-      'Name on card',
+      'Name on card*',
       name: 'nameOnCard',
       desc: '',
       args: [],
     );
   }
 
-  /// `Expiration date (MM/YY)`
+  /// `Expiration date (MM/YY)*`
   String get expirationDate {
     return Intl.message(
-      'Expiration date (MM/YY)',
+      'Expiration date (MM/YY)*',
       name: 'expirationDate',
       desc: '',
       args: [],
     );
   }
 
-  /// `Security code (CVV)`
+  /// `Security code (CVV)*`
   String get securityCode {
     return Intl.message(
-      'Security code (CVV)',
+      'Security code (CVV)*',
       name: 'securityCode',
       desc: '',
       args: [],
@@ -1030,26 +1040,6 @@ class Lang {
     );
   }
 
-  /// `Enter your email`
-  String get enterYourEmail {
-    return Intl.message(
-      'Enter your email',
-      name: 'enterYourEmail',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `New Email`
-  String get newEmail {
-    return Intl.message(
-      'New Email',
-      name: 'newEmail',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Waiting shipping`
   String get waitingShipping {
     return Intl.message(
@@ -1180,21 +1170,11 @@ class Lang {
     );
   }
 
-  /// `Please tell us the reason`
+  /// `Please tell us the reason (attached proof files/images/bills):`
   String get pleaseTellUsTheReason {
     return Intl.message(
-      'Please tell us the reason',
+      'Please tell us the reason (attached proof files/images/bills):',
       name: 'pleaseTellUsTheReason',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `attached proof files/images/bills`
-  String get attachedProofFile {
-    return Intl.message(
-      'attached proof files/images/bills',
-      name: 'attachedProofFile',
       desc: '',
       args: [],
     );
@@ -1300,30 +1280,30 @@ class Lang {
     );
   }
 
-  /// `Current Password`
+  /// `Current Password*`
   String get currentPassword {
     return Intl.message(
-      'Current Password',
+      'Current Password*',
       name: 'currentPassword',
       desc: '',
       args: [],
     );
   }
 
-  /// `New Password`
+  /// `New Password*`
   String get newPassword {
     return Intl.message(
-      'New Password',
+      'New Password*',
       name: 'newPassword',
       desc: '',
       args: [],
     );
   }
 
-  /// `Confirm new Password`
+  /// `Confirm new Password*`
   String get confirmNewPassword {
     return Intl.message(
-      'Confirm new Password',
+      'Confirm new Password*',
       name: 'confirmNewPassword',
       desc: '',
       args: [],
@@ -1440,16 +1420,6 @@ class Lang {
     );
   }
 
-  /// `Enter`
-  String get enter {
-    return Intl.message(
-      'Enter',
-      name: 'enter',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `See More`
   String get seeMore {
     return Intl.message(
@@ -1515,256 +1485,6 @@ class Lang {
     return Intl.message(
       'Edit Profile',
       name: 'editProfile',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Quantity`
-  String get quantity {
-    return Intl.message(
-      'Quantity',
-      name: 'quantity',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Reading Blog`
-  String get readingBlog {
-    return Intl.message(
-      'Reading Blog',
-      name: 'readingBlog',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Welcome to Major Craft`
-  String get welcomeToMajorCraft {
-    return Intl.message(
-      'Welcome to Major Craft',
-      name: 'welcomeToMajorCraft',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Login`
-  String get login {
-    return Intl.message(
-      'Login',
-      name: 'login',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Create account`
-  String get createAccount {
-    return Intl.message(
-      'Create account',
-      name: 'createAccount',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Remember me`
-  String get rememberMe {
-    return Intl.message(
-      'Remember me',
-      name: 'rememberMe',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Forgot password`
-  String get forgotPassword {
-    return Intl.message(
-      'Forgot password',
-      name: 'forgotPassword',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Don’t have an account?`
-  String get dontHaveAnAccount {
-    return Intl.message(
-      'Don’t have an account?',
-      name: 'dontHaveAnAccount',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Sign up`
-  String get signUp {
-    return Intl.message(
-      'Sign up',
-      name: 'signUp',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `OR`
-  String get or {
-    return Intl.message(
-      'OR',
-      name: 'or',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Next`
-  String get next {
-    return Intl.message(
-      'Next',
-      name: 'next',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Email verification`
-  String get emailVerification {
-    return Intl.message(
-      'Email verification',
-      name: 'emailVerification',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Please enter the 4-digit code that was sent to`
-  String get pleaseEnterCode {
-    return Intl.message(
-      'Please enter the 4-digit code that was sent to',
-      name: 'pleaseEnterCode',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Did not get it?`
-  String get didNotGetIt {
-    return Intl.message(
-      'Did not get it?',
-      name: 'didNotGetIt',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Password`
-  String get password {
-    return Intl.message(
-      'Password',
-      name: 'password',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Confirm Password`
-  String get confirmPassword {
-    return Intl.message(
-      'Confirm Password',
-      name: 'confirmPassword',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Reset`
-  String get reset {
-    return Intl.message(
-      'Reset',
-      name: 'reset',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Create`
-  String get create {
-    return Intl.message(
-      'Create',
-      name: 'create',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Your account is created.`
-  String get accountCreatedMessage {
-    return Intl.message(
-      'Your account is created.',
-      name: 'accountCreatedMessage',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Enjoy shopping at Major Craft now!`
-  String get enjoyShopping {
-    return Intl.message(
-      'Enjoy shopping at Major Craft now!',
-      name: 'enjoyShopping',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `At least 1 number and 8 characters`
-  String get passwordRequirement {
-    return Intl.message(
-      'At least 1 number and 8 characters',
-      name: 'passwordRequirement',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Verify`
-  String get verify {
-    return Intl.message(
-      'Verify',
-      name: 'verify',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Enter your password`
-  String get enterPassword {
-    return Intl.message(
-      'Enter your password',
-      name: 'enterPassword',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `This order will be cancelled after 120 minutes if you do not checkout now!`
-  String get toolTip {
-    return Intl.message(
-      'This order will be cancelled after 120 minutes if you do not checkout now!',
-      name: 'toolTip',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `My Orders`
-  String get myOrder {
-    return Intl.message(
-      'My Orders',
-      name: 'myOrder',
       desc: '',
       args: [],
     );

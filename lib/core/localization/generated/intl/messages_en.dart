@@ -24,8 +24,6 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "above": MessageLookupByLibrary.simpleMessage("Above"),
         "account": MessageLookupByLibrary.simpleMessage("Account"),
-        "accountCreatedMessage":
-            MessageLookupByLibrary.simpleMessage("Your account is created."),
         "addNewAddress":
             MessageLookupByLibrary.simpleMessage("Add new address"),
         "addToCart": MessageLookupByLibrary.simpleMessage("Add to cart"),
@@ -36,8 +34,6 @@ class MessageLookup extends MessageLookupByLibrary {
             "Apt, suite, building, floor, etc"),
         "areYouSureToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
             "Are you sure to delete this account?"),
-        "attachedProofFile": MessageLookupByLibrary.simpleMessage(
-            "attached proof files/images/bills"),
         "awaitingPayment":
             MessageLookupByLibrary.simpleMessage("Awaiting payment"),
         "backHome": MessageLookupByLibrary.simpleMessage("Back Home"),
@@ -48,7 +44,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "buyNow": MessageLookupByLibrary.simpleMessage("Buy Now"),
         "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "cancelled": MessageLookupByLibrary.simpleMessage("Cancelled"),
-        "cardNumber": MessageLookupByLibrary.simpleMessage("Card number"),
+        "cardNumber": MessageLookupByLibrary.simpleMessage("Card number*"),
         "cart": MessageLookupByLibrary.simpleMessage("Cart"),
         "categories": MessageLookupByLibrary.simpleMessage("Categories"),
         "changeAvatar": MessageLookupByLibrary.simpleMessage("Change avatar"),
@@ -65,15 +61,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "confirmAndPay":
             MessageLookupByLibrary.simpleMessage("Confirm and Pay"),
         "confirmNewPassword":
-            MessageLookupByLibrary.simpleMessage("Confirm new Password"),
-        "confirmPassword":
-            MessageLookupByLibrary.simpleMessage("Confirm Password"),
+            MessageLookupByLibrary.simpleMessage("Confirm new Password*"),
         "copyLink": MessageLookupByLibrary.simpleMessage("Copy Link"),
-        "country": MessageLookupByLibrary.simpleMessage("Country"),
-        "create": MessageLookupByLibrary.simpleMessage("Create"),
-        "createAccount": MessageLookupByLibrary.simpleMessage("Create account"),
+        "country": MessageLookupByLibrary.simpleMessage("Country*"),
         "currentPassword":
-            MessageLookupByLibrary.simpleMessage("Current Password"),
+            MessageLookupByLibrary.simpleMessage("Current Password*"),
         "days": MessageLookupByLibrary.simpleMessage("days"),
         "delete": MessageLookupByLibrary.simpleMessage("Delete"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Delete Account"),
@@ -87,41 +79,28 @@ class MessageLookup extends MessageLookupByLibrary {
         "dialogConnectionProblemTitle":
             MessageLookupByLibrary.simpleMessage("Connection Problem"),
         "dialogLoading": MessageLookupByLibrary.simpleMessage("Loading..."),
-        "didNotGetIt": MessageLookupByLibrary.simpleMessage("Did not get it?"),
         "discount": MessageLookupByLibrary.simpleMessage("Discount"),
         "discountPointsApplied":
             MessageLookupByLibrary.simpleMessage("Discount points applied"),
         "ditNotGetIt": MessageLookupByLibrary.simpleMessage("Did not get it?"),
-        "dontHaveAnAccount":
-            MessageLookupByLibrary.simpleMessage("Don’t have an account?"),
         "editProfile": MessageLookupByLibrary.simpleMessage("Edit Profile"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "emailChanged": MessageLookupByLibrary.simpleMessage("Email changed"),
-        "emailVerification":
-            MessageLookupByLibrary.simpleMessage("Email verification"),
-        "enjoyShopping": MessageLookupByLibrary.simpleMessage(
-            "Enjoy shopping at Major Craft now!"),
         "enter": MessageLookupByLibrary.simpleMessage("Enter"),
         "enterAnotherKeyword": MessageLookupByLibrary.simpleMessage(
             "Please enter another keyword or return home to explore more"),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("Enter your password"),
-        "enterYourEmail":
-            MessageLookupByLibrary.simpleMessage("Enter your email"),
         "exchangeGuide": MessageLookupByLibrary.simpleMessage("Exchange Guide"),
         "expirationDate":
-            MessageLookupByLibrary.simpleMessage("Expiration date (MM/YY)"),
+            MessageLookupByLibrary.simpleMessage("Expiration date (MM/YY)*"),
         "featuredItems": MessageLookupByLibrary.simpleMessage("FEATURED ITEMS"),
         "female": MessageLookupByLibrary.simpleMessage("Female"),
         "fillYourCardInformation":
             MessageLookupByLibrary.simpleMessage("Fill your card information"),
         "filter": MessageLookupByLibrary.simpleMessage("Filter"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("Forgot password"),
         "freeship": MessageLookupByLibrary.simpleMessage("Free shipping"),
         "from": MessageLookupByLibrary.simpleMessage("from"),
         "fullName": MessageLookupByLibrary.simpleMessage(
-            "Full name (First and Last name)"),
+            "Full name (First and Last name)*"),
         "gender": MessageLookupByLibrary.simpleMessage("Gender"),
         "generalCancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "generalOk": MessageLookupByLibrary.simpleMessage("Ok"),
@@ -133,7 +112,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "ifTheInformationIsValid": MessageLookupByLibrary.simpleMessage(
             "If the information is valid, the refund (if any) will be returned to your payment account within 15-21 business days (depending on the bank)."),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
-        "login": MessageLookupByLibrary.simpleMessage("Login"),
         "male": MessageLookupByLibrary.simpleMessage("Male"),
         "max": MessageLookupByLibrary.simpleMessage("Max"),
         "min": MessageLookupByLibrary.simpleMessage("Min"),
@@ -141,15 +119,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "minutesLeft": MessageLookupByLibrary.simpleMessage("minutes left"),
         "myAddress": MessageLookupByLibrary.simpleMessage("My Address"),
         "myCart": MessageLookupByLibrary.simpleMessage("My Cart"),
-        "myOrder": MessageLookupByLibrary.simpleMessage("My Orders"),
         "myOrders": MessageLookupByLibrary.simpleMessage("My Orders"),
         "myPoint": MessageLookupByLibrary.simpleMessage("My point"),
-        "nameOnCard": MessageLookupByLibrary.simpleMessage("Name on card"),
-        "newEmail": MessageLookupByLibrary.simpleMessage("New Email"),
-        "newPassword": MessageLookupByLibrary.simpleMessage("New Password"),
-        "next": MessageLookupByLibrary.simpleMessage("Next"),
+        "nameOnCard": MessageLookupByLibrary.simpleMessage("Name on card*"),
+        "newPassword": MessageLookupByLibrary.simpleMessage("New Password*"),
         "onDelivery": MessageLookupByLibrary.simpleMessage("On delivery"),
-        "or": MessageLookupByLibrary.simpleMessage("OR"),
         "order": MessageLookupByLibrary.simpleMessage("order"),
         "orderHistory": MessageLookupByLibrary.simpleMessage("ORDER HISTORY"),
         "orderIsBeingPacked":
@@ -160,27 +134,20 @@ class MessageLookup extends MessageLookupByLibrary {
         "other": MessageLookupByLibrary.simpleMessage("Other"),
         "packing": MessageLookupByLibrary.simpleMessage("Packing"),
         "paid": MessageLookupByLibrary.simpleMessage("Paid"),
-        "password": MessageLookupByLibrary.simpleMessage("Password"),
-        "passwordRequirement": MessageLookupByLibrary.simpleMessage(
-            "At least 1 number and 8 characters"),
         "payNow": MessageLookupByLibrary.simpleMessage("Pay Now"),
         "payment": MessageLookupByLibrary.simpleMessage("Payment"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("Payment method"),
-        "phoneNumber": MessageLookupByLibrary.simpleMessage("Phone number"),
-        "pleaseEnterCode": MessageLookupByLibrary.simpleMessage(
-            "Please enter the 4-digit code that was sent to"),
+        "phoneNumber": MessageLookupByLibrary.simpleMessage("Phone number*"),
         "pleaseEnterthe4DigitCode": MessageLookupByLibrary.simpleMessage(
             "Please enter the 4-digit code that was sent to"),
-        "pleaseTellUsTheReason":
-            MessageLookupByLibrary.simpleMessage("Please tell us the reason"),
+        "pleaseTellUsTheReason": MessageLookupByLibrary.simpleMessage(
+            "Please tell us the reason (attached proof files/images/bills):"),
         "pointDiscount": MessageLookupByLibrary.simpleMessage("Point Discount"),
         "pointYouWantToChange":
             MessageLookupByLibrary.simpleMessage("Point you want to change"),
         "points": MessageLookupByLibrary.simpleMessage("points"),
         "price": MessageLookupByLibrary.simpleMessage("Price"),
         "published": MessageLookupByLibrary.simpleMessage("Published"),
-        "quantity": MessageLookupByLibrary.simpleMessage("Quantity"),
-        "readingBlog": MessageLookupByLibrary.simpleMessage("Reading Blog"),
         "received": MessageLookupByLibrary.simpleMessage("Received"),
         "recentSearches":
             MessageLookupByLibrary.simpleMessage("Recent Searches"),
@@ -188,15 +155,13 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Recommended articles"),
         "relatedProducts":
             MessageLookupByLibrary.simpleMessage("Related Products"),
-        "rememberMe": MessageLookupByLibrary.simpleMessage("Remember me"),
         "resendCode": MessageLookupByLibrary.simpleMessage("Resend code"),
-        "reset": MessageLookupByLibrary.simpleMessage("Reset"),
         "returnOrder": MessageLookupByLibrary.simpleMessage("Return"),
         "saveChange": MessageLookupByLibrary.simpleMessage("Save Change"),
         "searchInMajorCraft":
             MessageLookupByLibrary.simpleMessage("Search in Major Craft"),
         "securityCode":
-            MessageLookupByLibrary.simpleMessage("Security code (CVV)"),
+            MessageLookupByLibrary.simpleMessage("Security code (CVV)*"),
         "seeLess": MessageLookupByLibrary.simpleMessage("See Less"),
         "seeMore": MessageLookupByLibrary.simpleMessage("See More"),
         "send": MessageLookupByLibrary.simpleMessage("Send"),
@@ -210,11 +175,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "shippingAndHandling":
             MessageLookupByLibrary.simpleMessage("Shipping & handling"),
         "shippingUnit": MessageLookupByLibrary.simpleMessage("Shipping unit"),
-        "signUp": MessageLookupByLibrary.simpleMessage("Sign up"),
         "stateProvinceRegion":
-            MessageLookupByLibrary.simpleMessage("State/Province/Region"),
+            MessageLookupByLibrary.simpleMessage("State/Province/Region*"),
         "streetOrPOBox":
-            MessageLookupByLibrary.simpleMessage("Street address or P.O Box"),
+            MessageLookupByLibrary.simpleMessage("Street address or P.O Box*"),
         "subtotal": MessageLookupByLibrary.simpleMessage("Subtotal"),
         "suggestForYou":
             MessageLookupByLibrary.simpleMessage("SUGGEST FOR YOU!"),
@@ -224,15 +188,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage(
                 "This is not match your current password"),
         "to": MessageLookupByLibrary.simpleMessage("to"),
-        "toolTip": MessageLookupByLibrary.simpleMessage(
-            "This order will be cancelled after 120 minutes if you do not checkout now!"),
         "total": MessageLookupByLibrary.simpleMessage("Total"),
         "typesOfItem": MessageLookupByLibrary.simpleMessage("types of item"),
         "upTo": MessageLookupByLibrary.simpleMessage("Up to"),
         "updatePassword":
             MessageLookupByLibrary.simpleMessage("Update Password"),
         "used": MessageLookupByLibrary.simpleMessage("Used"),
-        "verify": MessageLookupByLibrary.simpleMessage("Verify"),
         "viewAll": MessageLookupByLibrary.simpleMessage("View All"),
         "waitingPayment":
             MessageLookupByLibrary.simpleMessage("Waiting payment"),
@@ -243,14 +204,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "weHaveReceivedYourCancel": MessageLookupByLibrary.simpleMessage(
             "We have received your cancellation request."),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome"),
-        "welcomeToMajorCraft":
-            MessageLookupByLibrary.simpleMessage("Welcome to Major Craft"),
         "youCanReturnTheOrderWithin": MessageLookupByLibrary.simpleMessage(
             "You can return the order within 05 days, after 5 days if you do not confirm or return, the order will automatically be completed"),
         "youCancelledThisOrder":
             MessageLookupByLibrary.simpleMessage("You cancelled this order."),
         "youHave": MessageLookupByLibrary.simpleMessage("You have"),
         "youMayLike": MessageLookupByLibrary.simpleMessage("You may like"),
-        "zipCode": MessageLookupByLibrary.simpleMessage("Zip code")
+        "zipCode": MessageLookupByLibrary.simpleMessage("Zip code*")
       };
 }
