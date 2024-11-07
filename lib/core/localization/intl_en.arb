@@ -1,0 +1,176 @@
+{
+    "welcome": "Welcome",
+    "generalOk": "Ok",
+    "generalCancel": "Cancel",
+    "dialogLoading": "Loading...",
+    "dialogConnectionProblemTitle": "Connection Problem",
+    "dialogConnectionProblemMessage": "You are not connected to the Internet. Please check your connection and try again.",
+    "orderHistory": "ORDER HISTORY",
+    "viewAll": "Lang.current.viewAll",
+    "total": "Total",
+    "awaitingPayment" : "Awaiting payment",
+    "ordered": "Ordered",
+    "suggestForYou": "SUGGEST FOR YOU!",
+    "clothing": "CLOTHING",
+    "bought": "bought",
+    "featuredItems": "FEATURED ITEMS",
+    "home": "Home",
+    "categories": "Categories",
+    "blog": "Blog",
+    "account": "Account",
+    "searchInMajorCraft": "Search in Major Craft",
+    "recentSearches": "Recent Searches",
+    "weCouldntFindAMatch" : "We couldn't find a match",
+    "enterAnotherKeyword": "Please enter another keyword or return home to explore more",
+    "backHome": "Back Home",
+    "filter" : "Filter",
+    "price": "Price",
+    "clear": "Clear",
+    "apply" : "Apply",
+    "upTo" : "Up to",
+    "above": "Above",
+    "min": "Min",
+    "max": "Max",
+    "description": "Description",
+    "youMayLike": "You may like",
+    "addToCart": "Add to cart",
+    "buyNow": "Buy Now",
+    "myCart": "My Cart",
+    "minutesLeft": "minutes left",
+    "getDiscount": "Get Discount",
+    "checkoutNow": "Checkout Now",
+    "discount" : "Discount",
+    "subtotal": "Subtotal",
+    "myPoint": "My point",
+    "pointYouWantToChange": "Point you want to change",
+    "pointDiscount": "Point Discount",
+    "exchangeGuide": "Exchange Guide",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "discountPointsApplied": "Discount points applied",
+    "cart": "Cart",
+    "shipping": "Shipping",
+    "payment": "Payment",
+    "shippingAddress": "Shipping Address",
+    "fullName": "Full name (First and Last name)*",
+    "phoneNumber": "Phone number*",
+    "streetOrPOBox": "Street address or P.O Box*",
+    "aptSuiteBuildingFloor": "Apt, suite, building, floor, etc",
+    "country": "Country*",
+    "stateProvinceRegion": "State/Province/Region*",
+    "zipCode": "Zip code*",
+    "deliveryNote": "Delivery note",
+    "setDefaultAddress": "Set as my default address",
+    "shippingAndHandling": "Shipping & handling",
+    "freeship": "Free shipping",
+    "orderTotal": "Order total",
+    "shippingUnit": "Shipping unit",
+    "confirmAndPay": "Confirm and Pay",
+    "fillYourCardInformation": "Fill your card information",
+    "cardNumber": "Card number*",
+    "nameOnCard": "Name on card*",
+    "expirationDate": "Expiration date (MM/YY)*",
+    "securityCode": "Security code (CVV)*",
+    "orderNow": "Order Now",
+    "youHave": "You have",
+    "points": "points",
+    "historyTransaction": "History Transaction",
+    "myAddress": "My Address",
+    "myOrders": "My Orders",
+    "changeEmail": "Change Email",
+    "changePassword": "Change Password",
+    "language": "Language",
+    "deleteAccount": "Delete Account",
+    "email": "Email",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "saveChange": "Save Change",
+    "allHistory" : "All history",
+    "received": "Received",
+    "used": "Used",
+    "addNewAddress" : "Add new address",
+    "changeAvatar": "Change avatar",
+    "from": "from",
+    "order": "order",
+    "to": "to",
+    "claim": "claim",
+    "waitingPayment": "Waiting payment",
+    "waitingShipping": "Waiting shipping",
+    "onDelivery": "On delivery",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "returnOrder": "Return",
+    "paymentMethod": "Payment method",
+    "orderIsBeingPacked": "Order is being packed in",
+    "days": "days",
+    "paid": "Paid",
+    "packing": "Packing",
+    "delivered":"Delivered",
+    "deliveredSuccessfully": "Delivered successfully",
+    "youCanReturnTheOrderWithin": 
+    "You can return the order within 05 days, after 5 days if you do not confirm or return, the order will automatically be completed",
+    "pleaseTellUsTheReason": 
+    "Please tell us the reason (attached proof files/images/bills):",
+    "buildingDescription": "Building description, nearby landmark, etc,..",
+    "send" : "Send",
+    "youCancelledThisOrder": "You cancelled this order.",
+    "weHaveReceivedYourCancel": "We have received your cancellation request.",
+    "ifTheInformationIsValid": "If the information is valid, the refund (if any) will be returned to your payment account within 15-21 business days (depending on the bank).",
+    "pleaseEnterthe4DigitCode": "Please enter the 4-digit code that was sent to",
+    "ditNotGetIt": "Did not get it?",
+    "resendCode": "Resend code",
+    "thisCodeIsNotCorrect": "This code is not correct, please re-enter",
+    "emailChanged": "Email changed",
+    "currentPassword": "Current Password*",
+    "newPassword": "New Password*",
+    "confirmNewPassword": "Confirm new Password*",
+    "updatePassword": "Update Password",
+    "thisIsNotMatchYourCurrentPassword": "This is not match your current password",
+    "areYouSureToDeleteThisAccount" : "Are you sure to delete this account?",
+    "delete": "Delete",
+    "allBlogPosts": "All Blog Posts",
+    "copyLink": "Copy Link",
+    "recommendedArticles": "Recommended articles",
+    "relatedProducts": "Related Products",
+    "payNow": "Pay Now",
+    "typesOfItem": "types of item",
+    "city": "City",
+    "seeMore": "See More",
+    "seeLess": "See Less",
+    "minRead" : "min read",
+    "published": "Published",
+    "shareThisPost": "Share this post",
+    "hello": "Hello",
+    "editProfile": "Edit Profile"
+    
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+    
+
+
+   
+
+
+
+
+
+
+
+
+
+
+}
